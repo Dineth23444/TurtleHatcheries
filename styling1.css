@@ -1,0 +1,155 @@
+
+.navbar {
+    background-color: #00ecad;
+    height: 66px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.navbar li {
+    float: left;
+    margin-top: 2px;
+}
+
+.navbar li a {
+    display: block;
+    color: #333;
+    text-align: center;
+    padding: 20px 16px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar li a:hover {
+    background-color: #6ddbbe;
+    margin-top: 0px;
+}
+
+.active {
+    background-color: #00ecad;
+    color: white;
+    margin-left: 350px;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.5;
+  }
+  section {
+    padding: 40px 0;
+  }
+  
+  #donate .donation-options {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+  }
+  
+  .donation-option {
+    width: 30%;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    margin-left: 40px;
+    background-color: #9fead6;
+  }
+  
+  #shop .merchandise-options {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  .merchandise-option {
+    width: 30%;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    margin-left: 40px;
+    background-color: #9fead6;
+  }
+  
+  footer {
+    background-color: #333;
+    padding: 20px;
+    color: #fff;
+  }
+  
+  .footer-content {
+    max-width: 800px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  footer ul {
+    list-style-type: none;
+    display: flex;
+  }
+  
+  footer ul li {
+    margin-left: 10px;
+  }
+  
+  footer ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+.topic{
+    background: url(turtlepattern.jpg);
+    height:200px;
+    width: 100%;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:50px;
+    padding-top: 60px;
+    color:rgb(0, 52, 116);
+    border-radius:5px;
+    margin-top:67px;
+}
+h2{text-align: center;margin-bottom:50px;background-color: #6ddbbe;}
+.image{
+    border-radius:8px;
+    width:412px;
+    height: 270px;
+    transition: transform 0.3s ease;
+  }
+  .image:hover{
+    transform: scale(1.1);
+  }
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color:#00ecad;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }

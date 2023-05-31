@@ -1,0 +1,113 @@
+.navbar {
+    background-color: #00ecad;
+    height: 63px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.navbar li {
+    float: left;
+    margin-top: 2px;
+}
+
+.navbar li a {
+    display: block;
+    color: #333;
+    text-align: center;
+    padding: 20px 16px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar li a:hover {
+    background-color: #6ddbbe;
+    margin-top: 0px;
+}
+
+.active {
+    background-color: #00ecad;
+    color: white;
+    margin-left: 350px;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color:#00ecad;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  .topic{
+    background: url(sand4.webp);
+    height:200px;
+    width: 100%;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:50px;
+    padding-top: 90px;
+    color:rgb(0, 52, 116);
+    border-radius:5px;
+    margin-top:67px;
+}
+.video-container {
+    position: relative;
+    width: 400px;
+    height: 300px;
+    margin-left: 24%;
+    margin-right: 24%;
+    margin-bottom:50px;
+  }
+  
+  .video {
+    width:500px;
+    height: 370px;
+    margin: 0 auto;
+    color: #333;
+    margin-left: 27%;
+    margin-right: 27%;
+    border-radius: 5px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-top:-50px;
+
+  }
+  .container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color:#9fead6;
+    color: #333;
+    margin-left: 18%;
+    margin-right: 18%;
+    border-radius: 5px;
+    font-size: larger;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom:50px;
+  }
+footer {
+    background-color: #333;
+    padding: 10px;
+    text-align: center;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+  }

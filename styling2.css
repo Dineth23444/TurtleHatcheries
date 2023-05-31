@@ -1,0 +1,127 @@
+.navbar {
+    background-color: #00ecad;
+    height: 63px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
+  }
+  
+  .navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  
+  .navbar li {
+    float: left;
+    margin-top:2px;
+  }
+  
+  .navbar li a {
+    display: block;
+    color: #333;
+    text-align: center;
+    padding: 20px 16px;
+    text-decoration: none;
+    font-weight:none;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .navbar li a:hover {
+    background-color: #6ddbbe;
+    margin-top: 0px;
+  }
+  
+  .active {
+    background-color: #00ecad;
+    color: white;
+    margin-left:350px;
+  }
+  .topic{
+    background: url(turtlepattern.jpg);
+    height:200px;
+    width: 100%;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:50px;
+    padding-top: 90px;
+    color:rgb(0, 52, 116);
+    border-radius:5px;
+    margin-top:67px;
+}
+.content{
+    margin-top: 10px;
+}
+.para {
+    padding: 10px;
+    border-radius: 7px;
+    margin-bottom: 20px;
+    font-size: larger;
+    color: rgb(137, 137, 137);
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left:100px;
+    margin-right:100px;
+    margin-top:-20px;
+}
+.image{
+    border-radius:8px;
+    width:400px;
+    height: 270px;
+    margin-left:130px;
+
+}
+.heading{
+    margin-left:110px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: larger;
+
+}
+.para2{
+    padding: 10px;
+    border-radius: 7px;
+    margin-bottom: 20px;
+    font-size: larger;
+    color: #333;
+    color: rgb(137, 137, 137);
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left:100px;
+    margin-right:100px;
+    margin-top:-20px;
+    justify-content:center;
+
+}
+.content2{
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color:#9fead6;
+}
+h2{text-align: center;}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color:#00ecad;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+footer {
+  background-color: #333;
+  padding: 10px;
+  text-align: center;
+  color: #fff;
+  margin-bottom:-20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
